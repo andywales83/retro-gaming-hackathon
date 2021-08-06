@@ -136,10 +136,6 @@ The imagery used was primarily found on [unsplash](https://unsplash.com). These 
 * [Desktop Wireframes]()
 
 
-
-
-
-
 ## Technologies Used
 - This project is built using HTML5 semantic markup and CSS stylesheets.
 - [Gitpod](https://gitpod.io)
@@ -171,68 +167,8 @@ The imagery used was primarily found on [unsplash](https://unsplash.com). These 
     - Google Dev Tools was extensively used throughout the project for various styling and testing purposes. Its lighthouse feature was used as one of the main testing tools for this project.
 
 
-
-
-
-
-
-
 ## Testing
-
-### Testing User Stories
-
-
-
-**Further Testing**
-
-* All HTML passed through the prescribed [W3C validator](https://validator.w3.org/) with no issues. Some warnings were given to add identifying headings to sections but this was addressed using the commented headings to divide the pages into easily readable sections.
-
-<img src="documentation/w3c-validator.jpg" width="650" height="400" alt="w3c-validator.jpg">
-
-
-
-* All CSS passed through the prescribed [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) with no issues. Some warnings were given with regard to browser extensions.
-<img src="documentation/jigsaw-validator.jpg" width="650" height="350" alt="jigsaw-validator.jpg">
-<img src="documentation/extension-warning.jpg" width="500" height="400" alt="extension-warning.jpg">
-
-* Testing was performed in the following browsers on both laptop and mobile devices:
-    - Google Chrome
-
-    - Mozilla Firefox
-
-    - Opera 
-
-    - Microsoft Edge
-
-    - Internet Explorer
-
-    No issues were detected in any of these browsers at the time of submission. Previous bugs explained in the next section have been resolved. 
-
-* All links were tested and found to be completely functional at the time of submission.
-
-
-
-
-
-The below image is an example result of lighthouse testing performed on the index page for mobile with every other test achieving similar results. The lighthouse tool found in Google Dev Tools was used repeatedly throughout the building of the project and was essential in discovering and resolving the issues described below. A lighthouse test was performed on both mobile and desktop for each individual page on the site with links to the full reports of each of these tests found below. The lighthouse tool tested each of the following criteria: performance, accessibility, best practices and SEO of each individual page in both mobile and desktop. Each test resulted in a score of 85 or above for each of the aforementioned criteria. 
-
-<img src="documentation/finallighthouse (640x236).jpg" width="650" height="300" alt="final-lighthouse-results">
-
- [Lighthouse Desktop Index page results](documentation/lighthousedesktopindex.pdf) |
- [Lighthouse Mobile Index page results](documentation/lighthousemobileindex.pdf)
-
- [Lighthouse Desktop Tours page results](documentation/lighthousedesktoptours.pdf) |
- [Lighthouse Mobile Tours page results](documentation/lighthousemobiletours.pdf)
-
- [Lighthouse Desktop Meetups page results](documentation/lighthousedesktopmeetups.pdf) |
- [Lighthouse Mobile Meetups page results](documentation/lighthousemobilemeetups.pdf)
-
- [Lighthouse Desktop Contact page results](documentation/lighthousedesktopcontact.pdf) | 
- [Lighthouse Mobile Contact page results](documentation/lighthousemobilecontact.pdf) 
-
-
-### Known Bugs and Issues
-
+Testing information can be found here in the separate [TESTING.md file](TESTING.md)
 
 
 ## Deployment
