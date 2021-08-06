@@ -1,104 +1,260 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Contents
+* [UX](#UX)
+    * [Strategy](#Strategy)
+       * [Project Goals](#Project-Goals)
+       * [User Stories](#User-Stories) 
+    * [Structure](#Structure)
+       * [Features](#Features) 
+         * [Home Page](#Home-Page)
+         * [Existing Features](#Existing-Features)
+        * [Design](#Design)
+    * [Skeleton](#Skeleton)
+      * [Wireframes](#Wireframes)
+      * [Technolgies Used](#Technologies-Used)
+    * [Testing](#Testing)
+      * [Testing User Stories](#Testing-User-Stories)
+      * [Known Bugs and Issues](#Known-Bugs-and-Issues)
+    * [Deployment](#Deployment)
+      * [Making a clone to run locally](#Making-a-clone-to-run-locally)
+    * [Credits](#Credits)
+      * [Media](#Media)
+      * [Code](#Code)
+      * [Acknowledgements](#Acknowledgements)
 
-Welcome AideenM12,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+# Retro Gaming Hackathon
 
-## Gitpod Reminders
+![Website MockUp]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The live website can be viewed [here]()
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+# UX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Strategy 
 
-A blue button should appear to click: _Make Public_,
+### Project Goals
 
-Another blue button should appear to click: _Open Browser_.
+The central goal is to create an interactive game with retro gaming themes and styles.  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**The Strategy for achieving the above goals is as follows:**
+* Collaborate as a team
+* Decide on a project game that appeals to the team.
+* Build collaboratively based on the scope and skill set of the team.
+* Explore all resources available and push our own skills set to get the maximum possible output whilst also creating an enjoyable collaborative atmosphere!
+* Eat, Sleep, Hack, Repeat!
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
+**The Ideal User of this site is :**
+* Someone who enjoys gaming!
+* Someone with a keen interest in building collaborative projects.
+* Someone who enjoys the nostalgic feel of retro gaming!
+* Someone with a keen interest in frontend development for interactive games/sites.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### User Stories
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* As a first time user I want to play a game with intuitive UX design
+* As a first time user I want to play a game thematically inspired by retro games. 
+* As a returning user I ...
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+# Structure
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Features
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The website is divided into four separate pages. A home page, a tours page, a meet-ups page and a contact page. Each page has the same heading located on the left with navigation located on the right on the same row. Each page has the same footer with social media icon links on the right and the webpage title to the left. The same hero image is used on each page and located directly beneath the navigation bar. A row of navigation links are located directly below the hero image also. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### Home Page.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The home page gives a general overview of the content offered by the site. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Existing Features
+* The title header is located on the left of every page. Its function is to build and promote brand awareness whilst also creating a positive emotional response from the user by showcasing the color-scheme and typography specifically chosen for the brand.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* The navigation bar is located to the left of the title header on every page. It is located where a user would expect to find it to promote ease of use and easy navigation. Bootstrap technology allows it to collapse into a hamburger style on mobile devices again to match the expectation of the user and also make efficient use of screen space on smaller screens.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* The hero image is located on the desktop version of each page. 
 
-------
 
-## FAQ about the uptime script
+* The footer follows the same design as the header. The website title is located on the left and links to Facebook, Instagram and Github are stored in the icons to the right. Each of these links opens in a new tab so as to keep the user on the business page longer. 
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### Design
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+**Typography**
+I chose the 'Special Elite' font because it me reminded of the fonts used on old-style beer labels which helps 
+with the aesthetic I wanted to create. I contrasted this with the 'Zilla Slab' font in order to complement the 
+'Special Elite' font and also to maintain some style neutrality in order to prevent a style overload on the website.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+**Colours**
+I chose my color palette using the https://coolors.co website which my mentor had recommended. I chose these colors because
+I felt the palette best represented what the website offered, a friendly exploration of Galway's pub scene and night life.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+<img src="documentation/milestone1-palette (640x480).jpg" width="450" height="250" alt="milestone palette">
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* Oxford Blue - Hex: #000022 | RGB (0, 0, 34)
+* Oxford Blue - Hex: #001242 | RGB (0, 18, 66)
+* Lavender Blue - Hex: #C1D3FE | RGB (193, 211, 254)
+* Blue NCS - Hex: #0094C6 | RGB (0, 148, 198)
+* Blue Sapphire - Hex: #005E7C | RGB (0, 94, 124)
+* Rich Black FOGRA 29 - Hex: #040F16 | RGB (4, 15, 22)
 
-**Can I opt out?**
+**Imagery**
+The imagery used was primarily found on [unsplash](https://unsplash.com). These images were chosen because they matched the aesthetic and colour-scheme of the website whilst also providing an accurate representation of what was being offered. In the images Irish bars can be seen, as can drinks and also people socialising. The images of the testimonials section were provided by the developer to give the site a more authentic feel.  
+. 
+## Skeleton
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Wireframes
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* The wireframes were created using [Balsamiq wireframes](https://balsamiq.com/)
 
-**Anything more?**
+* The wireframe mockup links can be found below:
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* [Desktop Wireframes]()
 
----
 
-Happy coding!
+
+
+
+
+## Technologies Used
+- This project is built using HTML5 semantic markup and CSS stylesheets.
+- [Gitpod](https://gitpod.io)
+    - This project was built using Gitpod as the IDE.
+- [Google fonts](https://fonts.google.com/) 
+    - The font styles used on this website were chosen from Google fonts.
+- [Bootstrap 4.5](https://getbootstrap.com/)
+   - Various aspects of this website were structured using Bootstrap.
+   - Bootstrap was used to make this website responsive
+- [TinyJPG](https://tinyjpg.com/)
+   - The images represented were compressed using TinyJPG in order to improve the performance of the project. 
+- [Fontawesome](https://fontawesome.com/)
+    - The icons used on this page were found in Fontawesome.
+- [Hover.css](https://ianlunn.github.io/Hover/) 
+    - The hover feature of the navigation links below the hero image were implemented using Hover.css. 
+- [Popper.js](https://popper.js.org/)
+    - Certain bootstrap responsive elements require Popper.js in order to function correctly.
+- [Balsamiq](https://balsamiq.com/)
+    - The wireframes for this project were created using Balsamiq.
+- [Unsplash](https://unsplash.com/)
+    - The majority of images used in this project were found in Unsplash. 
+- [Freeformatter- CSS beautifier](https://www.freeformatter.com/css-beautifier.html)
+    - This was used to format the CSS stylesheet.
+- [Freeformatter- HTML formatter](https://www.freeformatter.com/html-formatter.html)
+    - This was used to format each HTML page
+- [Adobe Photoshop](https://photoshop.adobe.com/) 
+    - Some images were resized using Adobe Photoshop.
+- [Google DevTools](https://developers.google.com/web/tools/chrome-devtools) 
+    - Google Dev Tools was extensively used throughout the project for various styling and testing purposes. Its lighthouse feature was used as one of the main testing tools for this project.
+
+
+
+
+
+
+
+
+## Testing
+
+### Testing User Stories
+
+
+
+**Further Testing**
+
+* All HTML passed through the prescribed [W3C validator](https://validator.w3.org/) with no issues. Some warnings were given to add identifying headings to sections but this was addressed using the commented headings to divide the pages into easily readable sections.
+
+<img src="documentation/w3c-validator.jpg" width="650" height="400" alt="w3c-validator.jpg">
+
+
+
+* All CSS passed through the prescribed [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) with no issues. Some warnings were given with regard to browser extensions.
+<img src="documentation/jigsaw-validator.jpg" width="650" height="350" alt="jigsaw-validator.jpg">
+<img src="documentation/extension-warning.jpg" width="500" height="400" alt="extension-warning.jpg">
+
+* Testing was performed in the following browsers on both laptop and mobile devices:
+    - Google Chrome
+
+    - Mozilla Firefox
+
+    - Opera 
+
+    - Microsoft Edge
+
+    - Internet Explorer
+
+    No issues were detected in any of these browsers at the time of submission. Previous bugs explained in the next section have been resolved. 
+
+* All links were tested and found to be completely functional at the time of submission.
+
+
+
+
+
+The below image is an example result of lighthouse testing performed on the index page for mobile with every other test achieving similar results. The lighthouse tool found in Google Dev Tools was used repeatedly throughout the building of the project and was essential in discovering and resolving the issues described below. A lighthouse test was performed on both mobile and desktop for each individual page on the site with links to the full reports of each of these tests found below. The lighthouse tool tested each of the following criteria: performance, accessibility, best practices and SEO of each individual page in both mobile and desktop. Each test resulted in a score of 85 or above for each of the aforementioned criteria. 
+
+<img src="documentation/finallighthouse (640x236).jpg" width="650" height="300" alt="final-lighthouse-results">
+
+ [Lighthouse Desktop Index page results](documentation/lighthousedesktopindex.pdf) |
+ [Lighthouse Mobile Index page results](documentation/lighthousemobileindex.pdf)
+
+ [Lighthouse Desktop Tours page results](documentation/lighthousedesktoptours.pdf) |
+ [Lighthouse Mobile Tours page results](documentation/lighthousemobiletours.pdf)
+
+ [Lighthouse Desktop Meetups page results](documentation/lighthousedesktopmeetups.pdf) |
+ [Lighthouse Mobile Meetups page results](documentation/lighthousemobilemeetups.pdf)
+
+ [Lighthouse Desktop Contact page results](documentation/lighthousedesktopcontact.pdf) | 
+ [Lighthouse Mobile Contact page results](documentation/lighthousemobilecontact.pdf) 
+
+
+### Known Bugs and Issues
+
+
+
+## Deployment
+This project was developed using [Gitpod IDE](https://gitpod.io) and pushed to Github using the in-built terminal.
+
+This project was deployed from the [Github Respository](https://github.com/AideenM12/retro-gaming-hackathon) to GitHub Pages using the following steps:
+
+1. Log into Github.
+2. Select the [AideenM12/retro-gaming-hackathon](https://github.com/AideenM12/retro-gaming-hackathon) respository.
+3. Click the settings tab.
+4. Scroll to the GitHub Pages section of the page.
+5. Under the source heading select the *master* branch option.
+6. Click save.
+7. The project has now been deployed. Scroll back to the GitHub pages section and click on the link above the source heading to view the live site.
+
+### Making a clone to run locally
+
+1. Log into GitHub.
+2. Select the [respository](https://github.com/AideenM12/retro-gaming-hackathon).
+3. Click the Code dropdown button next to the green Gitpod button.
+4. Download ZIP file and unpackage locally and open with IDE. Alternatively copy the URL in the HTTPS box.
+5. Open the alternative editor and terminal window.
+6. Type 'git clone' and paste the copied URL.
+7. Press Enter. A local clone will be created.  
+
+## Credits
+
+### Media
+
+
+### Code
+
+
+* [Stack Overflow](https://stackoverflow.com/) was used as a general resource for general issues and obstacles.  
+
+### Acknowledgements
+
+
