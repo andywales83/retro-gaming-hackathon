@@ -8,3 +8,4 @@ node_modules/
 .github/
 .vscode/
 /vscode
+.vscode.settings.json
