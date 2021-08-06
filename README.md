@@ -1,4 +1,5 @@
 # Contents
+* [Collaborators](#Collaborators)
 * [UX](#UX)
     * [Strategy](#Strategy)
        * [Project Goals](#Project-Goals)
@@ -28,7 +29,19 @@
 
 The live website can be viewed [here]()
 
+# Collaborators
 
+* [Andy](https://github.com/andywales83)
+
+* [Anthony](https://github.com/auxfuse)
+
+* [Aideen](https://github.com/AideenM12)
+
+* [Charlie](https://github.com/charliehawley)
+
+* [Gemma](https://github.com/85GLC85)
+
+* [Craig](https://github.com/CraigThomasson)
 
 # UX
 
