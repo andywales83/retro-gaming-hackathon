@@ -21,6 +21,12 @@ header h1 {
   margin: 20px auto;
 }
 
+.cow-img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
 .dev-credits h3 {
   margin-top: 50px;
 }
