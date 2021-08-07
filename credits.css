@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
     font-family: 'MedievalSharp', cursive;;
+    background-color: #c6e2e9;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
