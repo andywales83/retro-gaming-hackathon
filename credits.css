@@ -21,6 +21,11 @@ header h1 {
   margin: 20px auto;
 }
 
+.dev-credits h3 {
+  margin-top: 50px;
+}
+
 .dev-credits p {
   font-size: 1.6em;
+  padding: 10px 0px;
 }
