@@ -25,6 +25,7 @@ header h1 {
   height: 350px;
   width: 350px;
   border-radius: 50%;
+  border: 2px solid gray;
 }
 
 .dev-credits h3 {
@@ -39,4 +40,9 @@ header h1 {
 .repository p {
   margin: 60px auto;
   font-size: 1.8em;
+}
+
+.start-button a {
+  margin-bottom: 50px;
+  font-size: 1.3em;
 }
